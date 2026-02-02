@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FFB Memories ❤️</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Floating hearts background animation -->
+    <div class="hearts-container" id="heartsContainer"></div>
+    
+    <!-- Header Section -->
+    <header class="header">
+        <div class="header-content">
+            <h1 class="main-title">
+                <span class="title-heart">❤️</span>
+                FFB  Memories
+                <span class="title-heart">❤️</span>
+            </h1>
+            <p class="subtitle">A collection of our special moments together</p>
+        </div>
+    </header>
+
+    <!-- Filter Tabs -->
+    <div class="filter-container">
+        <button class="filter-btn active" data-filter="all">All (60)</button>
+        <button class="filter-btn" data-filter="photos">Photos (50)</button>
+        <button class="filter-btn" data-filter="videos">Videos (10)</button>
+    </div>
+
+    <!-- Gallery Grid -->
+    <div class="gallery-container">
+        <div class="gallery-grid" id="galleryGrid">
+            <!-- Gallery items will be dynamically loaded here -->
+        </div>
+    </div>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose">&times;</button>
+        <button class="lightbox-nav lightbox-prev" id="lightboxPrev">&#10094;</button>
+        <button class="lightbox-nav lightbox-next" id="lightboxNext">&#10095;</button>
+        
+        <div class="lightbox-content">
+            <!-- Image container -->
+            <div class="lightbox-image-container" id="lightboxImageContainer">
+                <img src="" alt="" id="lightboxImage">
+            </div>
+            
+            <!-- Video container -->
+            <div class="lightbox-video-container" id="lightboxVideoContainer">
+                <video controls id="lightboxVideo">
+                    <source src="" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+        
+        <div class="lightbox-counter" id="lightboxCounter">1 / 60</div>
+    </div>
+
+    <!-- Loading Spinner -->
+    <div class="loading-spinner" id="loadingSpinner">
+        <div class="spinner"></div>
+        <p>Loading our memories...</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

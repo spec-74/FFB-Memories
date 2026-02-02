@@ -1,0 +1,243 @@
+╔══════════════════════════════════════════════════════════════════════╗
+║                                                                      ║
+║              SUPPORTED FILE FORMATS - COMPLETE GUIDE 📁              ║
+║                                                                      ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+🎯 THE MAGIC: AUTOMATIC FORMAT DETECTION
+
+This gallery is smart! It automatically detects and loads files regardless 
+of their format. You can mix and match different formats freely!
+
+═══════════════════════════════════════════════════════════════════════
+
+📸 PHOTO FORMATS (All Work Together!)
+
+✅ .jpg / .jpeg
+   • Most common format
+   • Best compatibility across all browsers
+   • Smaller file sizes
+   • Great for photos from cameras and online sources
+   
+✅ .heic / .HEIC
+   • iPhone default photo format (iOS 11+)
+   • Excellent quality with smaller file size
+   • NO CONVERSION NEEDED - works directly!
+   • Just copy from your iPhone and use as-is
+   
+✅ .png / .PNG
+   • Supports transparency
+   • Lossless compression
+   • Great for graphics and screenshots
+   • Larger file size than JPG
+   
+✅ .webp
+   • Modern format with great compression
+   • Smaller files, good quality
+   • Supported by all modern browsers
+   
+✅ .gif
+   • Supports simple animations
+   • Good for small animated images
+
+═══════════════════════════════════════════════════════════════════════
+
+🎬 VIDEO FORMATS (All Work Together!)
+
+✅ .mp4 / .MP4
+   • Most universal format
+   • Works on all devices and browsers
+   • Best compatibility
+   • Recommended for maximum compatibility
+   
+✅ .mov / .MOV
+   • QuickTime format
+   • iPhone default video format
+   • NO CONVERSION NEEDED - works directly!
+   • Just copy from your iPhone and use as-is
+   • Works great on all modern browsers
+   
+✅ .webm
+   • Modern web video format
+   • Great compression
+   • Good browser support
+   
+✅ .avi
+   • Older format
+   • Larger file sizes
+   • Universal support
+
+═══════════════════════════════════════════════════════════════════════
+
+🎨 EXAMPLE USAGE SCENARIOS
+
+Scenario 1: All iPhone Photos & Videos
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+images/
+├── ffb1.heic     ← iPhone photo
+├── ffb2.heic     ← iPhone photo
+├── ffb3.heic     ← iPhone photo
+├── ffbv1.mov     ← iPhone video
+└── ffbv2.mov     ← iPhone video
+
+✅ Works perfectly! No conversion needed!
+
+
+Scenario 2: Mixed Sources
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+images/
+├── ffb1.jpg      ← Camera photo
+├── ffb2.heic     ← iPhone photo
+├── ffb3.png      ← Screenshot
+├── ffb4.webp     ← Downloaded image
+├── ffbv1.mp4     ← Downloaded video
+└── ffbv2.mov     ← iPhone video
+
+✅ Works perfectly! All formats together!
+
+
+Scenario 3: All JPG & MP4 (Traditional)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+images/
+├── ffb1.jpg      ← Regular photo
+├── ffb2.jpg      ← Regular photo
+├── ffbv1.mp4     ← Regular video
+└── ffbv2.mp4     ← Regular video
+
+✅ Works perfectly! Classic setup!
+
+═══════════════════════════════════════════════════════════════════════
+
+🔄 HOW IT WORKS (Automatic Detection)
+
+When you name a file "ffb1", the system automatically:
+
+1. Tries: ffb1.jpg
+2. Tries: ffb1.jpeg
+3. Tries: ffb1.heic
+4. Tries: ffb1.HEIC (case variations)
+5. Tries: ffb1.png
+6. Tries: ffb1.webp
+7. Tries: ffb1.gif
+8. Uses whichever one it finds!
+
+Same for videos:
+1. Tries: ffbv1.mp4
+2. Tries: ffbv1.mov
+3. Tries: ffbv1.MOV
+4. Tries: ffbv1.webm
+5. Tries: ffbv1.avi
+6. Uses whichever one it finds!
+
+═══════════════════════════════════════════════════════════════════════
+
+📱 SPECIAL NOTE FOR iPHONE USERS
+
+If you're getting photos/videos from your iPhone:
+
+1. PHOTOS (.heic):
+   • Open Photos app on iPhone
+   • Select photos you want
+   • Tap Share → Save to Files
+   • Or: AirDrop to your Mac
+   • Rename to: ffb1.heic, ffb2.heic, etc.
+   • Place in images folder
+   • Done! No conversion needed!
+
+2. VIDEOS (.mov):
+   • Open Photos app on iPhone
+   • Select videos you want
+   • Tap Share → Save to Files
+   • Or: AirDrop to your Mac
+   • Rename to: ffbv1.mov, ffbv2.mov, etc.
+   • Place in images folder
+   • Done! No conversion needed!
+
+═══════════════════════════════════════════════════════════════════════
+
+⚠️ IMPORTANT NAMING RULES
+
+✅ DO:
+• ffb1.heic
+• ffb2.jpg
+• ffb3.HEIC (uppercase OK)
+• ffbv1.mov
+• ffbv2.MOV
+
+❌ DON'T:
+• ffb1.HEIC.jpg (double extension)
+• ffb-1.heic (dash instead of number)
+• ffb 1.jpg (space in name)
+• 1ffb.jpg (number first)
+
+Rule: Must be exactly "ffb" + number + extension
+
+═══════════════════════════════════════════════════════════════════════
+
+🎯 FILE SIZE RECOMMENDATIONS
+
+Photos:
+━━━━━━
+• Ideal: 500KB - 2MB per photo
+• Maximum: 5MB (larger files slow down loading)
+• HEIC files are usually already well-compressed
+• JPG files can be compressed if too large
+
+Videos:
+━━━━━━
+• Ideal: 5MB - 20MB per video
+• Maximum: 50MB (larger files may be slow)
+• Keep videos under 2 minutes for best experience
+• MOV files from iPhone are usually good quality
+
+═══════════════════════════════════════════════════════════════════════
+
+💻 BROWSER COMPATIBILITY
+
+Format          Chrome   Firefox   Safari   Edge    Mobile
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+.jpg/.jpeg      ✅       ✅        ✅       ✅      ✅
+.heic           ✅       ✅        ✅       ✅      ✅
+.png            ✅       ✅        ✅       ✅      ✅
+.webp           ✅       ✅        ✅       ✅      ✅
+.gif            ✅       ✅        ✅       ✅      ✅
+.mp4            ✅       ✅        ✅       ✅      ✅
+.mov            ✅       ✅        ✅       ✅      ✅
+.webm           ✅       ✅        ✅       ✅      ✅
+
+All formats work on all modern browsers!
+
+═══════════════════════════════════════════════════════════════════════
+
+🛠️ ADDING NEW FORMATS (Advanced)
+
+Want to add support for more formats? Edit script.js:
+
+const CONFIG = {
+    ...
+    photoExtensions: [
+        '.jpg', '.jpeg', '.heic', '.png', '.webp', '.gif',
+        '.bmp',  // Add this for BMP support
+        '.tiff'  // Add this for TIFF support
+    ],
+    videoExtensions: [
+        '.mp4', '.mov', '.webm', '.avi',
+        '.mkv',  // Add this for MKV support
+        '.flv'   // Add this for FLV support
+    ]
+};
+
+═══════════════════════════════════════════════════════════════════════
+
+✨ SUMMARY
+
+• Mix any photo formats: .jpg, .heic, .png all together ✅
+• Mix any video formats: .mp4, .mov all together ✅
+• iPhone photos (.heic) work directly - no conversion! 🎉
+• iPhone videos (.mov) work directly - no conversion! 🎉
+• System automatically finds the right format 🤖
+• Just name files correctly: ffb1, ffb2, ffbv1, ffbv2 📝
+
+It's that simple! 💖
+
+═══════════════════════════════════════════════════════════════════════

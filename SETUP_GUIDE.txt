@@ -1,0 +1,117 @@
+╔══════════════════════════════════════════════════════════════════════╗
+║                                                                      ║
+║           VALENTINE'S DAY GALLERY - QUICK SETUP GUIDE 💕            ║
+║                                                                      ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+🎯 WHAT YOU NEED TO DO:
+
+1. ADD YOUR PHOTOS (50 total)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━
+   • Put 50 photos in the "images" folder
+   • Name them: ffb1.jpg, ffb2.heic, ffb3.png ... ffb50.jpg
+   • Supported: .jpg, .jpeg, .heic, .png, .gif, .webp
+   • Mix formats freely! (e.g., some .jpg, some .heic)
+
+
+2. ADD YOUR VIDEOS (10 total)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━
+   • Put 10 videos in the "images" folder
+   • Name them: ffbv1.mp4, ffbv2.mov ... ffbv10.mp4
+   • Supported: .mp4, .mov, .webm, .avi
+   • Mix formats freely! (e.g., some .mp4, some .mov)
+
+
+3. OPEN THE WEBSITE
+   ━━━━━━━━━━━━━━━━━━━━━━━━━
+   • Double-click "index.html"
+   • That's it! Your gallery is ready! 🎉
+
+
+📁 YOUR FOLDER SHOULD LOOK LIKE THIS:
+
+valentine-gallery/
+├── index.html           ← Double-click this to open
+├── styles.css
+├── script.js
+├── README.md
+├── SETUP_GUIDE.txt      ← You're reading this!
+└── images/              ← Put your files here!
+    ├── ffb1.jpg         ← Can be .jpg
+    ├── ffb2.heic        ← Can be .heic
+    ├── ffb3.png         ← Can be .png (any format!)
+    ├── ...
+    ├── ffb50.jpg
+    ├── ffbv1.mp4        ← Can be .mp4
+    ├── ffbv2.mov        ← Can be .mov (any format!)
+    ├── ...
+    └── ffbv10.mp4
+
+
+⚙️ NEED TO CHANGE SOMETHING?
+
+Want MORE photos/videos?
+→ Open script.js
+→ Change the numbers at the top:
+  photoCount: 50  ← Change this
+  videoCount: 10  ← Change this
+
+Different file names?
+→ Add new files with the same pattern (ffb51.jpg, ffb52.jpg, etc.)
+→ Update the count in script.js
+
+
+🎨 CUSTOMIZATION IDEAS:
+
+• Change the title: Edit index.html (line 19)
+• Change colors: Edit styles.css (lines 2-9)
+• Add more photos: Just increase photoCount in script.js
+
+
+🎮 CONTROLS:
+
+Desktop:
+• Click any photo/video to view full size
+• Use arrow keys (← →) to navigate
+• Press ESC to close
+• Hover over videos to preview
+
+Mobile:
+• Tap to view
+• Swipe left/right to navigate
+• Tap outside to close
+
+
+💡 TIPS FOR BEST RESULTS:
+
+✓ Use high-quality photos (at least 1920x1080)
+✓ iPhone photos (.heic) work perfectly - no conversion needed!
+✓ iPhone videos (.mov) work perfectly - no conversion needed!
+✓ Mix different formats freely (jpg + heic + png all together)
+✓ Keep videos under 2 minutes
+✓ Compress large files if loading is slow
+✓ Square or landscape photos work best
+
+
+🆘 PROBLEMS?
+
+Photos not showing?
+→ Check that files are named exactly: ffb1, ffb2, etc.
+→ Extension can be .jpg, .heic, .png - any supported format
+→ Make sure they're in the "images" folder
+
+Videos not playing?
+→ Can be .mp4, .mov, .webm, or .avi
+→ MOV files from iPhone work great!
+→ Try opening in a different browser
+
+Still stuck?
+→ Check README.md for detailed troubleshooting
+
+
+═══════════════════════════════════════════════════════════════════
+
+                    🌹 HAPPY VALENTINE'S DAY! 🌹
+                   Made with ❤️ for someone special
+
+═══════════════════════════════════════════════════════════════════
