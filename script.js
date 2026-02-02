@@ -4,7 +4,7 @@ const CONFIG = {
     // Number of photos (named ffb1.jpg, ffb1.heic, etc.)
     photoCount: 50,
     // Number of videos (named ffbv1.mp4, ffbv1.mov, etc.)
-    videoCount: 10,
+    videoCount: 0,
     // Folder where images and videos are stored
     imageFolder: 'images/',
     // Photo filename base (will try multiple extensions automatically)
